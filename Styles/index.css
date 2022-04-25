@@ -1,0 +1,64 @@
+#navbar {
+    /* border: 1px solid red; */
+    opacity: 85%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    height: 70px;
+    color: white;
+    background-color: #112;
+    overflow: hidden;
+}
+
+#add-money {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    height: auto;
+    gap: 10px;
+}
+
+#amount {
+    height: 40px;
+    width: 80%;
+    margin: auto;
+    border: none;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+#amount:hover {
+    background-color: rgb(28, 28, 63);
+    color: white;
+}
+
+#add-money button {
+    height: 35px;
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+    color: white;
+    background-color: #112;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+}
+
+#add-money button:hover {
+    background-color: rgb(28, 28, 63);
+}
+
+body {
+    background-image: url('https://eudatasharing.eu/sites/default/files/styles/sidebar_image_scale_to_368px_width_/public/2021-06/EU%20Digital%20Wallet.png?itok=I4eh6xn5');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

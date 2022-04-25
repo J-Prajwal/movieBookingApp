@@ -1,10 +1,6 @@
-// Each ticket will cost 100 Rupees
-// If wallet amount is insufficient show alert "Insufficient Balance!";
-// Else show "Booking successfull!" and adjust the wallet amount in real time
-
 let movies = JSON.parse(localStorage.getItem("movie"));
 let walletBalance = localStorage.getItem("amount");
-document.querySelector("#wallet").innerHTML = walletBalance;
+document.querySelector("#wallet").innerHTML = "₹ " + walletBalance;
 
 function checkout() {
     let numSeats = document.querySelector('#number_of_seats').value;

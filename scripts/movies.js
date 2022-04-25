@@ -1,17 +1,4 @@
-// Implement debouncing for network request
-// On clicking book now store the selected movie in localstorage as key "movie"
-// so that you can retrive it on checkout.html page
-
-
-// const url = 'https://api.themoviedb.org/3/search/movie?api_key=b3d7513e669169551c86a221bb67c912&language=en-US&query=avengers&page=1&include_adult=true'
-
-// fetch(url).then(function (res) {
-//     return res.json();
-// }).then(function (res) {
-//     console.log(res.results);
-// }).catch(function (err) {
-//     console.log(err);
-// })
+document.querySelector("#wallet").textContent = "₹ " + localStorage.getItem("amount");
 
 let id;
 
